@@ -1,10 +1,9 @@
-function Header() {
+export function Header() {
   return (
-    <div>
+    <header>
       <h1>Bienvenue</h1>
       <p>Lorem ipsum dolor sit, amet consectetur</p>
-    </div>
+    </header>
   );
 }
 
-export default Header;

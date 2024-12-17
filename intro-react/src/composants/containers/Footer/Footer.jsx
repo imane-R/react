@@ -1,10 +1,9 @@
-function Footer() {
+export function Footer() {
   return (
-    <div>
+    <footer>
       <h3>Merci de votre visite</h3>
       <p> Mon application React</p>
-    </div>
+    </footer>
   );
 }
 
-export default Footer;
