@@ -11,7 +11,6 @@ function App() {
     prenom: "Imane",
     nom: "Benamar",
     age: 29,
-    hobbies: ["Thai Box", "Danse"],
   };
   function ajoute() {
     alert("ajouter");
@@ -32,7 +31,10 @@ function App() {
         prenom={userData.prenom}
         nom={userData.nom}
         age={userData.age}
-        hobbies={userData.hobbies}
+        hobbies={[
+          { id: 1, nom: "Thai Box" },
+          { id: 2, nom: "Danse" },
+        ]}
       />
       <Routine />
       <Player />
